@@ -1,0 +1,15 @@
+git config --list > lista toda a config do seu git
+
+git confit --global --unset user.email > reseta as configs de email
+git config --global --unset user.name > reseta as configs de nome
+
+criar um novo repositório
+
+1 - Com o Github aberto ir em > Your repositorys > click New > configura o Repositório
+2 - Depois de criado, é preciso apontar o repositório local para o servidor
+3 - cmd Bash > git remote origin (link que aparece no Github)
+// origin é um alias que pode ser qualquer nome, mas que por convenção é usado origin
+4 - git push origin master > Empurra o git local para o branch master remoto
+git remote -v > lista o repositórios remotos cadastrados
+
+é possível criar um commit direto do Github que automaticamente respeita as regras do git local

@@ -1,0 +1,23 @@
+git add * > transforma um arquivo untracked em staged
+git commit > transforma o arquivo de staged para unmodified
+             envia o arquivo da staging area para o local repository
+git status > nos indica o status atual do arquivo
+
+ao mover um arquivo para uma nova pasta, o gitstatus entende que o arquivo foi deletado
+cmd> git add (nome do arquivo) (nome da nova pasta)/
+
+para commitar o arquivo movido
+cmd> git commit -m "(mensagem)"
+
+
+o Git tem 2 ambientes
+
+Ambiente de desenvolvimento
+    Working directory
+    Staging area
+    Local repository
+
+Ambiente do servidor
+    Remote repository
+
+git config --list > lista toda a config do seu git

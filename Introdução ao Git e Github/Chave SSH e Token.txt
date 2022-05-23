@@ -1,0 +1,32 @@
+A partir de 2021, é necessário uma chave de autenticação SSH para enviar os códigos pro Github
+
+Passo a passo para gerar uma chave SSH no Windows:
+
+1 - Abrir Gitbash
+2 - Digitar comando: ssh-keygen -t ed25519 -C (email preferencial)
+3 - Dar enter até gerar a chave
+ vai ser gerada a chave e os tokens
+ a que vai ser compartilhada com o GIthub é a chave pública
+4 - Digitar comando: cd e o diretório indicado na geração de chave (até o /.ssh/)
+5 - Digitar comando: ls para listar os arquivos
+6 - Digitar comando: cat id_25519.pub para mostrar a chave pública gerada e copiar a chave
+7 - Ir para o site do Github, em settings, SSH e GPG keys
+8 - Clicar em New SSH key, dar um nome e colar a chave.
+9 - Voltar para o bash
+10 - digitar comando: eval $(ssh-agent -s)
+11 - Comando: ls para ver se ainda estamos na pasta .ssh
+12 - Comando: ssh-add id_25519 para passar a chave privada ao agente
+
+Está feita a chave
+Se eu quiser clonar um repositório do Github:
+1 - copiar a chave ssh do repositório
+2 - digitar comando no bash: git clone (colar chave)
+3 - digitar y enter
+
+Para criar Toekens:
+
+1 - Página do Github > Settings > Developers settings > Personal access tokens
+2 - Clicar Generate new tokens
+3 - Dar nome a chave, definir tempo de expiração, marcar a opção repo
+4 - Clicar generate tokens
+5 - Copiar para um lugar seguro

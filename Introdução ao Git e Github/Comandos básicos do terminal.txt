@@ -1,0 +1,27 @@
+Comandos básicos para navegar na CLI do CMD e do Bash
+
+Windows
+
+dir - lista os diretorios da pasta atual
+cd - Muda o diretório atual
+cd .. - Retrocede 1 nível do diretório
+cls - Limpa a tela de Comandos
+Tab - autocompletar
+mkdir - cria uma nova pasta
+echo > (nomearquivo) - cria um arquivo
+del - deleta todos os arquivos dentro do diretório
+rmdir - remove o diretório
+
+
+Linux
+
+ls - lista os diretorios da pasta atual
+cd - muda o diretório atual
+cd .. - Retrocede um nível do diretório 
+clear (ctrl + l) - Limpa a tela de comandos
+mkdir - cria uma nova pasta
+echo > (nomearquivo) - cria um novo arquivo
+rm -rf - Deleta o diretório e todo o seu conteúdo
+ls -a - mostra arquivos ocultos
+mv (source) ./(destination)/ 
+

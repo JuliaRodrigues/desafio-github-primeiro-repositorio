@@ -1,0 +1,9 @@
+git init - cria um repório git na pasta atual
+
+ao criar, é necessário alguns comandos para confirgurar o usuário atrelado ao reposiório
+1 - cmd> git config --global user.email "(colocar email)"
+2 - cmd> git config --global user.name (nomegit)
+
+Para criar um commit
+1 - cmd> git add *
+2 - cmd> git commit -m "commit inicial"

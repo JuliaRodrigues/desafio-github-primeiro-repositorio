@@ -1,0 +1,17 @@
+ 
+ Quando duas pessoas trabalham no mesmo código através de clone 
+ e são feitas alterações na mesma linha, o primeiro commit vai valer como versão mais atual.
+ Quando a a próxima pessoa for dar commit, vai apontar um conflito de merge.
+ Para resolver é preciso que as pessoas analisem a linha de código para dizer ao Github qual é a versão correta
+
+ 
+Se houver arquivos no Github que não estejam no repositório local, 
+o git não vai permitir um novo push.
+é necerrário fazer um pull request.
+
+git pull origin master > faz um pull request
+
+clonar reporsitórios: 
+1 - entrar no repositório desejado e clickar "code"
+2 - copiar a url
+3 - No Bash cmd> git clone (url)
