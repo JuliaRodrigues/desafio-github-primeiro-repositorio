@@ -5,4 +5,5 @@ Desafio de projeto sobre Git/Github
 [Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)\
 [Mover Pastas no Bash](https://linuxize.com/post/how-to-move-files-in-linux-with-mv-command/)\
 [Mozilla Developer Network](https://developer.mozilla.org/en-US/)\
-[Video sobre estrutura de dados)(https://www.youtube.com/watch?v=zg9ih6SVACc)
+[Video sobre estrutura de dados](https://www.youtube.com/watch?v=zg9ih6SVACc)\
+[Aulas sobre Algorítmos](https://sites.google.com/site/unipliconstrucaodealgoritmos/aulas/aula-2)
